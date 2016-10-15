@@ -6,3 +6,10 @@ EMERGENCY LED LIGHTING with using motion PIR sensor HC501,Liti-ON element 18650 
 
 # Using 
 http://www.lexxai.pp.ua/2014/10/18650.html
+
+
+    P-CHANNEL POWER MOSFET - AP3310G
+    N-CHANNEL POWER MOSFET - APM2014N 
+    Zero-Cross Triac Driver Output Optocoupler - MOC3041M
+    POWER TRIAC BTA16-600
+
