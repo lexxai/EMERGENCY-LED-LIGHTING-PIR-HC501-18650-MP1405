@@ -9717,7 +9717,7 @@ www.radiohm.com</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="G1" library="battery" deviceset="SL-160AA/PT" device="" value="18650"/>
 <part name="LED1" library="display-hp" deviceset="HLMP6" device="" value="1W"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="2R"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="5R"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="Q2" library="transistor-power" deviceset="IRF4905" device="" value="AP3310G"/>
 <part name="Q1" library="transistor-power" deviceset="IRFP25*" device="" technology="0" value="APM2014N"/>
@@ -9738,6 +9738,11 @@ www.radiohm.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="60.96" y="30.48" size="1.778" layer="97">2. 1W LED
+    Epistar, 100Lm, Warm White
+    Voltage: 3V-3.4V, 350 mA</text>
+<text x="60.96" y="40.64" size="1.778" layer="97">1. R3 can be replaced by driver
+    NSI50350AST3G  350mA.</text>
 </plain>
 <instances>
 <instance part="T1" gate="G$1" x="58.42" y="71.12"/>
